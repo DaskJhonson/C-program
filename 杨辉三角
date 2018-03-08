@@ -29,7 +29,7 @@ int Combination(int m, int n) {
 }
 
 void Triangle(int m){   //m为需要产生三角的行数，默认最多为13
-	for (int n = 1; n <m; n++)
+	for (int n = 1; n <=m; n++)
 	{
 		for (int i = 1; i <= m - n; i++)
 		{
