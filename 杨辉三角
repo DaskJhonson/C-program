@@ -28,7 +28,7 @@ int Combination(int m, int n) {
 	return c;
 }
 
-void Triangle(int m){   //m为需要产生三角的行数，默认最多为14
+void Triangle(int m){   //m为需要产生三角的行数，默认最多为13
 	for (int n = 1; n <m; n++)
 	{
 		for (int i = 1; i <= m - n; i++)
